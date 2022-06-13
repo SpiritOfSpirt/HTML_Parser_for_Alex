@@ -1,0 +1,20 @@
+{
+  "name": "price-monitor",
+  "version": "1.0.0",
+  "description": "Parse html page and remember price of some goods",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiritOfSpirt/HTML_Parser_for_Alex.git"
+  },
+  "author": "Kobzar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiritOfSpirt/HTML_Parser_for_Alex/issues"
+  },
+  "homepage": "https://github.com/SpiritOfSpirt/HTML_Parser_for_Alex#readme"
+}

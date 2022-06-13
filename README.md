@@ -1,0 +1,1 @@
+Small application to parse HTML and get price of some goods.

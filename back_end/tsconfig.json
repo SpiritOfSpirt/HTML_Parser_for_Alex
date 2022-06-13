@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "types": ["node"],
+        "lib": [
+            "es2016", "DOM"
+        ],
+        "strictNullChecks": true
+    },
+    "include": [
+        "src/**/*",
+        "node_modules/@types/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+  }
