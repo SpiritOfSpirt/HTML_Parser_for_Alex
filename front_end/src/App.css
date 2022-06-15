@@ -1,0 +1,35 @@
+.Create-block, .Read-block {
+  margin: 30px;
+}
+
+.Create-block > *, .Read-block > * {
+  display: block;
+}
+
+.paginator-line {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+}
+
+.paginator-line > * {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.paginator-line h3 {
+  height: 30px;
+}
+
+.paginator-line-img {
+  height: 23px;
+}
+
+.Read-block ul {
+  list-style-type: none;
+}
+
+.Read-block li {
+  display: inline-block;
+  margin-left: 30px;
+  cursor: pointer;
+}

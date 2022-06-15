@@ -1,5 +1,3 @@
-const webpack = require("webpack");
-
 module.exports = {
     entry: `./src/index.ts`,
     output: {
@@ -17,17 +15,10 @@ module.exports = {
     resolve: {
         extensions: [".ts", ".js"],
     },
-    plugins: [
-        new webpack.HashedModuleIdsPlugin({
-            context: __dirname,
-            hashFunction: "sha256",
-            hashDigest: "hex",
-            hashDigestLength: 20,
-        }),    
-    ],
     node: {
         __dirname: false,
         __filename: false,
     },
     target: 'node',
+    externals: [ 'selenium-webdriver', 'chromedriver', 'ws', 'redis', 'express' ],
 };

@@ -11,7 +11,7 @@
         "baseUrl": ".",
         "types": ["node"],
         "lib": [
-            "es2016", "DOM"
+            "es2017", "DOM"
         ],
         "strictNullChecks": true
     },
